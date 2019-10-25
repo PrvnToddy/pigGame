@@ -83,7 +83,7 @@ document.querySelector(".btn-hold").addEventListener("click", () => {
     document.querySelector("#score-" + activePlayer).textContent =
       scorePanel[activePlayer];
     if (number === "") {
-      setNum = 30;
+      setNum = 100;
     } else {
       setNum = number;
     }
